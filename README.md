@@ -19,7 +19,7 @@ npm install npm@latest -g
 
 ### Installation
 
-1. Clone the repo `git clone https://github.com/your_username_/Project-Name.git` 
+1. Clone the repo `git clone https://github.com/Joseph-Worthington/markdown-previewer.git` 
 2. Install NPM packages `npm install` 
 3. Start the development server `npm start`
 
