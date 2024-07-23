@@ -19,9 +19,9 @@ npm install npm@latest -g
 
 ### Installation
 
-    1. Clone the repo \`git clone https://github.com/your_username_/Project-Name.git\` 
-    2. Install NPM packages \`npm install\` 
-    3. Start the development server \`npm start\` 
+1. Clone the repo \`git clone https://github.com/your_username_/Project-Name.git\` 
+2. Install NPM packages \`npm install\` 
+3. Start the development server \`npm start\`
 
 This runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
 
@@ -29,12 +29,12 @@ This runs the app in the development mode. Open http://localhost:3000 to view it
 
 To use the Markdown Previewer:
 
-    1. Edit Markdown: Type your Markdown text into the "Editor" textarea.
-    2. View HTML Preview: The HTML preview will automatically update as you type in the "Preview" section.
+1. Edit Markdown: Type your Markdown text into the "Editor" textarea.
+2. View HTML Preview: The HTML preview will automatically update as you type in the "Preview" section.
 
 
 ## Acknowledgements
 
-    - React
-    - TypeScript
-    - marked - A markdown parser and compiler.
+- React
+- TypeScript
+- marked - A markdown parser and compiler.
