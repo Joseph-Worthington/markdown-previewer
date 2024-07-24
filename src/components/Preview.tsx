@@ -13,8 +13,8 @@ const Preview: React.FC<PreviewProps> = ({ value }) => {
     }, [value]);
 
     return (
-        <div>
-            <h2>Preview</h2>
+        <div className=' bg-slate-200 border-2 border-solid border-black p-10'>
+            <h2 className='w-1.5'>Preview</h2>
             <div id="preview" dangerouslySetInnerHTML={{ __html: markdown }} />
         </div>
     );

@@ -1,5 +1,3 @@
-import exp from "constants"
-
 const DefaultText = 
 `# Welcome to my React Markdown Previewer!
 ## This is a sub-heading...
