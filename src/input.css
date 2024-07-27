@@ -4,17 +4,20 @@
 
 @layer base {
     h1 {
-      @apply text-3xl;
-      @apply font-bold;
-      @apply my-6;
-    }
-    h2 {
       @apply text-xl;
       @apply font-bold;
+      @apply my-6;
+      @apply xl:text-3xl;
+    }
+    h2 {
+      @apply text-lg;
+      @apply font-bold;
       @apply my-4;
+      @apply xl:text-xl;
     }
     p {
       @apply my-2;
+      @apply leading-10;
     }
     ul,ol{
       @apply my-2;
@@ -25,5 +28,15 @@
     }
     ol {
       @apply list-decimal;
+    }
+    pre{
+      @apply my-2;
+      @apply p-2;
+      @apply bg-gray-100;
+      @apply rounded-lg;
+      @apply overflow-x-auto;
+    }
+    code{
+      @apply bg-gray-100;
     }
   }

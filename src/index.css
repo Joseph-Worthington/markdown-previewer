@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -438,24 +438,39 @@ video {
 }
 
 h1 {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+@media (min-width: 1280px) {
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
 p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  line-height: 2.5rem;
 }
 
 ul,ol {
@@ -470,6 +485,21 @@ ul {
 
 ol {
   list-style-type: decimal;
+}
+
+pre {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  border-radius: 0.5rem;
+  overflow-x: auto;
+}
+
+code {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 *, ::before, ::after {
@@ -584,48 +614,36 @@ ol {
   display: flex;
 }
 
-.min-h-\[\] {
-  min-height: ;
+.min-h-96 {
+  min-height: 24rem;
 }
 
-.min-h-\[50\%\] {
-  min-height: 50%;
+.min-h-\[80\%\] {
+  min-height: 80%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-1\.5 {
   width: 0.375rem;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .w-full {
   width: 100%;
 }
 
-.min-w-quarter {
-  min-width: 25%;
-}
-
-.min-w-\[quarter\] {
-  min-width: quarter;
-}
-
-.min-w-\[25\%\] {
-  min-width: 25%;
-}
-
-.min-w-\[45\%\] {
-  min-width: 45%;
-}
-
-.min-w-\[40\%\] {
-  min-width: 40%;
-}
-
-.min-w-\[30\%\] {
-  min-width: 30%;
-}
-
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -667,6 +685,15 @@ ol {
   padding: 2.5rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -683,4 +710,22 @@ ol {
 
 .underline {
   text-decoration-line: underline;
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .xl\:w-\[60\%\] {
+    width: 60%;
+  }
+
+  .xl\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .xl\:p-10 {
+    padding: 2.5rem;
+  }
 }
