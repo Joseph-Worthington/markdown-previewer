@@ -8,20 +8,31 @@
       @apply font-bold;
       @apply my-6;
       @apply xl:text-3xl;
+      @apply dark:text-slate-50;
     }
     h2 {
       @apply text-lg;
       @apply font-bold;
       @apply my-4;
       @apply xl:text-xl;
+      @apply dark:text-slate-50;
+    }
+    h3{
+      @apply text-base;
+      @apply font-bold;
+      @apply my-3;
+      @apply xl:text-lg;
+      @apply dark:text-slate-50;
     }
     p {
       @apply my-2;
       @apply leading-10;
+      @apply dark:text-slate-50;
     }
     ul,ol{
       @apply my-2;
       @apply pl-4;
+      @apply dark:text-slate-50;
     }
     ul {
       @apply list-disc;
@@ -29,14 +40,25 @@
     ol {
       @apply list-decimal;
     }
+    th{
+      @apply font-bold;
+      @apply dark:text-slate-50;
+    }
+    td{
+      @apply dark:text-slate-50;
+    }
     pre{
       @apply my-2;
       @apply p-2;
       @apply bg-gray-100;
       @apply rounded-lg;
       @apply overflow-x-auto;
+      @apply dark:bg-gray-800;
+      @apply dark:text-slate-50;
     }
     code{
       @apply bg-gray-100;
+      @apply dark:bg-gray-800;
+      @apply dark:text-slate-50;
     }
   }
