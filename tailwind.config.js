@@ -7,11 +7,6 @@ module.exports = {
   ,
   darkMode: "class",
   theme: {
-    extend: {
-      minWidth: {
-        'quarter': '25%',
-      }
-    },
   },
   plugins: [],
 }

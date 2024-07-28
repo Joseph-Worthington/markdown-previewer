@@ -62,3 +62,33 @@
       @apply dark:text-slate-50;
     }
   }
+
+  .darkmode-toggle:after{
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(51,65,85);
+    transition: 0.5s;
+  }
+  input:hover + .darkmode-toggle:after{
+    cursor: pointer;
+    width: 35px;
+  }
+  input{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  input:checked + .darkmode-toggle{
+    background: #242424;
+  }
+  input:checked + .darkmode-toggle:after{
+    left: 75px;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg, #777, #3a3a3a);
+    transition: 0.3s;
+  }

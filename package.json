@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start && watch",
+    "start": "react-scripts start && npm run watch",
     "build": "react-scripts build",
     "watch": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch",
     "test": "react-scripts test",
