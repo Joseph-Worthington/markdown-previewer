@@ -13,8 +13,7 @@ const Preview: React.FC<PreviewProps> = ({ value }) => {
             gfm: true,
             breaks: true
         });
-
-        Promise.resolve(marked(value)).then(setMarkdown);
+        setMarkdown(marked(value) as string);
     }, [value]);
 
     return (
